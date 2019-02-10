@@ -1,0 +1,10 @@
+/* assets/css/transitions.css */
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .3s ease;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
